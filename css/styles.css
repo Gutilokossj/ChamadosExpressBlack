@@ -1,60 +1,57 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-  }
-  
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
 body {
-    box-sizing: border-box;
-    background-color: #16041d;
-  }
+  box-sizing: border-box;
+  background-color: #1c1b29; /* Fundo roxo escuro */
+  color: #000000; /* Texto claro com toque de roxo */
+}
 
 .box-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .box-form {
-    width: 40rem;
+  width: 40rem;
+  background-color: #292841; /* Fundo do formulário em roxo escuro */
+  color: #e4e1ff; /* Texto do formulário */
 }
 
 .columns {
   display: flex;
   flex-direction: row;
   margin-top: 40px;
-  color: white;
 }
 
-.column-01 {
+.column-01, .column-02 {
   display: flex;
   width: 50%;
   flex-direction: column;
-}
-
-.column-02 {
-  display: flex;
-  width: 50%;
-  flex-direction: column;
-}
-
-input{
-  background-color: #24c80e;
+  background-color: #292842; /* Fundo das colunas em roxo escuro */
+  color: #e4e1ff; /* Texto das colunas */
 }
 
 .info-toast {
-  background: #24c80e;
+  background: #6a1b9a; /* Roxo vibrante */
   border-radius: 5px;
+  color: #ffffff; /* Texto branco */
 }
 
 .success-toast {
-  background: #5cb85c;
+  background: #2e7d32; /* Verde escuro */
   border-radius: 5px;
+  color: #ffffff; /* Texto branco */
 }
 
 .error-toast {
-  background: #d9534f;
+  background: #c62828; /* Vermelho vibrante */
   border-radius: 5px;
+  color: #ffffff; /* Texto branco */
 }
 
 .topo {
@@ -62,8 +59,8 @@ input{
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: #2e2b2b;
-  color: #1e6a2d;
+  background-color: #3e3c54; /* Fundo do topo em roxo acinzentado */
+  color: #e4e1ff; /* Texto do topo */
 }
 
 .footer {
@@ -72,7 +69,7 @@ input{
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #1e6a2d;
+  background-color: #301341; /* Fundo do footer em roxo vibrante */
   color: white;
   flex-direction: column;
   justify-content: center;
