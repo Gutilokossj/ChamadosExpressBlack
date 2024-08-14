@@ -18,7 +18,6 @@ body {
 
 .box-form {
   width: 40rem;
-  background-color: #292841; /* Fundo do formulário em roxo escuro */
   color: #e4e1ff; /* Texto do formulário */
 }
 
@@ -35,6 +34,7 @@ body {
   background-color: #292842; /* Fundo das colunas em roxo escuro */
   color: #e4e1ff; /* Texto das colunas */
 }
+
 
 .info-toast {
   background: #6a1b9a; /* Roxo vibrante */
