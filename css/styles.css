@@ -6,8 +6,10 @@
 
 body {
   box-sizing: border-box;
-  background-color: #1c1b29; /* Fundo roxo escuro */
+  background-color: #242434; /* Fundo roxo escuro */
   color: #000000; /* Texto claro com toque de roxo */
+  overflow: auto;
+  margin-bottom: 25px;
 }
 
 .box-body {
@@ -31,7 +33,7 @@ body {
   display: flex;
   width: 50%;
   flex-direction: column;
-  background-color: #292842; /* Fundo das colunas em roxo escuro */
+  background-color: #242434; /* Fundo das colunas em roxo escuro */
   color: #e4e1ff; /* Texto das colunas */
 }
 
@@ -59,7 +61,7 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: #3e3c54; /* Fundo do topo em roxo acinzentado */
+  background: radial-gradient(circle, rgba(21,2,37,1) 0%, rgba(0,0,0,1) 55%, rgba(21,2,37,1) 100%); /* Fundo do topo em roxo acinzentado */
   color: #e4e1ff; /* Texto do topo */
 }
 
@@ -69,7 +71,7 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #301341; /* Fundo do footer em roxo vibrante */
+  background-color: #000000; /* Fundo do footer em roxo vibrante */
   color: white;
   flex-direction: column;
   justify-content: center;
